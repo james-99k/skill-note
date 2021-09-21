@@ -1,14 +1,13 @@
 .skill {
   padding: 1rem;
-  width: 200px;
+  width: 250px;
   min-height: 175px;
-  background-color: rgb(130, 233, 233);
+  background: rgb(113, 169, 233);
   color: #151116;
-  border-radius: 10px;
+  border-radius: 6px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .skill__button {
@@ -32,8 +31,7 @@
 }
 
 .skill__button:hover {
-  color: white;
-  background-color: #151116;
+  cursor: pointer;
 }
 
 .skill__button:active {
@@ -49,14 +47,36 @@
   margin-bottom: 0.25rem;
 }
 
-.skill__title {
-  font-weight: bold;
+.skill__contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(52, 139, 238);
+  border-radius: 6px;
 }
 
-.skill__year {
-  font-style: italic;
+.skill__title {
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.skill__buttons {
+  display: flex;
 }
 
 .skill__note {
-  margin-top: 15px;
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 6px;
+  height: 70px;
+  padding: 5px;
+}
+
+.delete:hover {
+  color: rgb(255, 0, 0);
+}
+
+.edit:hover {
+  color: rgb(83, 255, 83);
 }

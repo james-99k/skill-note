@@ -1,6 +1,6 @@
 .skill-form {
   padding: 1.5rem;
-  background-color: rgb(130, 233, 233);
+  background: rgb(113, 169, 233);
   color: #151116;
   border-radius: 10px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
@@ -24,6 +24,8 @@
   margin: 0 0 1rem 0;
   grid-column: 1 / 3;
   text-align: center;
+  background: rgb(52, 139, 238);
+  border-radius: 6px;
 }
 
 .skill-form__label {

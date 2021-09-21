@@ -32,17 +32,28 @@ function Skill(props) {
     <div className="skill">
       <div className="skill__contents">
         <div className="skill__title">{title}</div>
-        <div className="skill__rating">{ratingString}</div>
-        <div className="skill__note">{note}</div>
+        <div className="skill__buttons">
+          <button
+            className="skill__button delete"
+            disabled={isDeleting}
+            onClick={deleteSkill}
+          >
+            <Delete />
+          </button>
+          <button
+            className="skill__button edit"
+            onClick={() => history.push(`/edit/${id}`)}
+          >
+            <Edit />
+          </button>
+        </div>
         {errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
       </div>
       <div>
-        <button className="skill__button" disabled={isDeleting} onClick={deleteSkill}>
-          <Delete />
-        </button>
-        <button className="skill__button" onClick={() => history.push(`/edit/${id}`)}>
-          <Edit />
-        </button>
+        <div className="skill__rating">{ratingString}</div>
+      </div>
+      <div>
+        <div className="skill__note">{note}</div>
       </div>
     </div>
   );
