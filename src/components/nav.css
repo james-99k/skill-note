@@ -1,0 +1,31 @@
+.nav {
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.nav__link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.15s all;
+  padding: 0 10px;
+}
+
+.nav__link:visited {
+  color: white;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.nav__link:active {
+  color: rgb(153, 153, 153);
+}

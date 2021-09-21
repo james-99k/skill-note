@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Basketball",
+    "rating": 4,
+    "note": "Good"
+  },
+  {
+    "title": "Volleyball",
+    "rating": 1,
+    "note": "Needs more practice"
+  },
+  {
+    "title": "Swimming",
+    "rating": 5,
+    "note": "Excellent"
+  },
+  {
+    "title": "Golf",
+    "rating": 4,
+    "note": "Needs more golf ball"
+  },
+  {
+    "title": "Web Develepment",
+    "rating": 5,
+    "note": "Learn Angular"
+  },
+  {
+    "title": "Cooking",
+    "rating": 3,
+    "note": "Knife handling lesson"
+  },
+  {
+    "title": "Hiking",
+    "rating": 1,
+    "note": "Learn basics"
+  }
+]

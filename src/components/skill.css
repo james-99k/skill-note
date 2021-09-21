@@ -1,0 +1,62 @@
+.skill {
+  padding: 1rem;
+  width: 200px;
+  min-height: 175px;
+  background-color: rgb(130, 233, 233);
+  color: #151116;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skill__button {
+  display: block;
+  padding: 0.25rem;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  color: #151116;
+  transition: all 0.15s;
+  outline: none;
+}
+
+.skill__button:disabled {
+  opacity: 0.6;
+}
+
+.skill__button:focus {
+  color: white;
+  background-color: #151116;
+}
+
+.skill__button:hover {
+  color: white;
+  background-color: #151116;
+}
+
+.skill__button:active {
+  color: white;
+  background-color: #151116;
+}
+
+.skill__button svg {
+  font-size: 1.25rem;
+}
+
+.skill > * {
+  margin-bottom: 0.25rem;
+}
+
+.skill__title {
+  font-weight: bold;
+}
+
+.skill__year {
+  font-style: italic;
+}
+
+.skill__note {
+  margin-top: 15px;
+}
