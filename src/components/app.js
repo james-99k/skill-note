@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { MemoryRouter, Switch, Route } from "react-router-dom";
 import AddSkillPage from "../pages/add-skill-page";
 import EditSkillPage from "../pages/edit-skill-page";
 import SkillsPage from "../pages/skill-page";
@@ -8,7 +8,7 @@ import Nav from "./nav";
 
 function App() {
   return (
-    <BrowserRouter>
+    <MemoryRouter>
       <Nav />
 
       <Switch>
@@ -28,7 +28,7 @@ function App() {
           <NotFoundPage />
         </Route>
       </Switch>
-    </BrowserRouter>
+    </MemoryRouter>
   );
 }
 
